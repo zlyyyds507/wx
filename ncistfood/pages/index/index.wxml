@@ -1,0 +1,48 @@
+<view>
+    <view class="img">
+      <image src="../../images/index/ncist.jpg"></image>
+    </view>
+</view>
+
+<view class="nav">
+    <view>
+        <view><image src="../../images/icon/fenlei.jpg" style="width: 25px;height: 23px;"></image></view>
+        <view>分类</view>
+    </view>
+    <view>
+      <view><image src="../../images/icon/fenlei.jpg" style="width: 25px;height: 23px;"></image></view>
+        <view>分类</view>
+    </view>
+    <view>
+      <view><image src="../../images/icon/fenlei.jpg" style="width: 25px;height: 23px;"></image></view>
+        <view>分类</view>
+    </view>
+    <view>
+      <view><image src="../../images/icon/fenlei.jpg" style="width: 25px;height: 23px;"></image></view>
+        <view>分类</view>
+    </view>
+</view>
+<!-- 美食列表 -->
+<view>
+    <view class="head">
+        <view>华科美食列表</view>
+        <view>></view>
+    </view>
+    <block wx:for="{{food}}" wx:key="id">
+          <view class="list">
+          <view><image src="{{item.src}}" style="width: 75px;height: 58px;" mode=""/></view>
+          <view class="right">
+              <view>{{item.title}}</view>
+              <view class="desc">
+                    <view class="leibie">{{item.leibie}}</view>
+                    <view class="liulan">{{item.liulan}}浏览</view>
+                    <view class="pinglun">{{item.pinglun}}评论</view>
+              </view>
+          </view>      
+        </view>
+    </block>
+    
+
+ 
+
+</view>

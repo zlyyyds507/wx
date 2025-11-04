@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/toutiao/toutiao",
+    "pages/meishi/meishi",
+    "pages/order/order",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "text":"学做菜",
+        "iconPath":"images/tab-images/cook-0.jpg",
+        "selectedIconPath":"images/tab-images/cook-1.jpg"
+      },
+      {
+        "pagePath":"pages/toutiao/toutiao",
+        "text":"头条",
+        "iconPath":"images/tab-images/food-0.jpg",
+        "selectedIconPath":"images/tab-images/food-1.jpg"
+      },
+      {
+        "pagePath":"pages/meishi/meishi",
+        "text":"点餐",
+        "iconPath":"images/tab-images/message-0.jpg",
+        "selectedIconPath":"images/tab-images/message-1.jpg"
+      },
+      {
+        "pagePath":"pages/order/order",
+        "text":"订单",
+        "iconPath":"images/tab-images/order-0.png",
+        "selectedIconPath":"images/tab-images/order-1.png"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "text":"我的",
+        "iconPath":"images/tab-images/me-0.jpg",
+        "selectedIconPath":"images/tab-images/me-1.jpg"
+      }
+      
+    ]
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "华科美食",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
